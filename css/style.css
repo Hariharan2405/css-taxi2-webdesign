@@ -1,0 +1,156 @@
+*{
+	border:0;
+	margin:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.row{
+	text-align:center;
+	padding:30px;
+	margin:auto;
+}
+h4{
+	display:inline-block;
+	color:yellow;
+	padding:10px;
+}
+h1{
+	padding:0 0 10px;
+}
+@media(min-width:320px){
+	.row{
+		width:100%;
+	}
+	.col2{
+		flex-wrap:wrap;
+		width:100%;
+	}
+	.card{
+		width:100%;
+	}
+}
+@media(min-width:620px){
+	.row{
+		width:90%;
+	}
+	.col2{
+		flex-wrap:wrap;
+	}
+	.card{
+		width:48%;
+	}
+}
+@media(min-width:1000px){
+	.row{
+		width:75%;
+	}
+	.col2{
+		flex-wrap:nowrap;
+	}
+	.card{
+		width:30%;
+	}
+}
+.col{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+	padding:20px 0;
+}
+.col a{
+	border-radius:50px;
+	padding:10px 20px;
+	background-color:#000;
+	color:#fff;
+}
+img{
+	width:100%;
+	padding:20px;
+	border-radius:10px;
+}
+.img{
+	text-align:center;
+}
+.card{
+	padding:20px;
+	box-shadow:0 0 10px #ccc;
+	border-radius:10px;
+}
+.col2{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+.img p{
+	padding:10px 0 40px;
+	color:yellow;
+}
+.content{
+	padding-bottom:20px;
+	border-radius:10px;
+	background-color:#000;
+	color:#fff;
+	padding:30px 10px;
+	position:relative;
+}
+.icon img{
+	width:130%;
+}
+.bn{
+	padding-top:20px;
+}
+.icon{
+	width:60px;
+	height:60px;
+	background-color:yellow;
+	display:flex;
+	justify-content:center;
+	border-radius:50%;
+	align-items:center;
+	position:absolute;
+	top:-30px;
+	left:40%;
+}
+.con-col{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#fff;
+	padding:5px 0;
+}
+.btn{
+	width:100%;
+	border-radius:10px;
+	background-color:yellow;
+	padding:10px;
+}
+.con-col i{
+	color:yellow;
+	padding:5px;
+}
+.bar{
+	width:100px;
+	height:10px;
+	border:2px solid yellow;
+	border-radius:50px;
+	position:relative;
+}
+.bar div{
+	width:20px;
+	height:6px;
+	background-color:yellow;
+	border-radius:50px;
+	position:absolute;
+	left:70%;
+}
+.bh{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:20px;
+}
